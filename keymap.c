@@ -21,20 +21,8 @@ enum layer_names {
 };
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-    /* Base */
+    /* Base Layer: 7 Keys */
     [_BASE] = LAYOUT(
-        KC_A,    KC_B
-    ),
-
-    [1] = LAYOUT(
-        KC_TRNS, KC_TRNS
-    ),
-
-    [2] = LAYOUT(
-        KC_TRNS, KC_TRNS
-    ),
-
-    [3] = LAYOUT(
-        KC_TRNS, KC_TRNS
+        KC_F18, KC_F19, KC_F20, KC_F21, KC_F22, KC_F23, KC_F24
     )
 };
